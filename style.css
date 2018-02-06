@@ -1,0 +1,237 @@
+.left{
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: none;
+    
+}
+div{
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    opacity: 0.9;
+}
+body{
+    background-color: black;
+}
+#countdown p {
+    font-size: 24px;
+    word-spacing: 30px;
+    text-align: center;
+    left: 450px;
+    color: white; 
+    font-family: 'Dosis', sans-serif;
+    z-index: 3333;
+}
+#header{
+    width: 100%;
+    position: fixed;
+    z-index: 300;
+}
+#header a{
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+#logo{
+    width: 100px;
+}
+#logo img{
+   width: 200px;
+    height: 50px;
+    position: relative;
+    left: 150px;
+}
+
+
+#home:target,
+#about:target,
+#speakers:target,
+#sponsors:target,
+#team:target{
+    display: block;
+}
+
+#home{
+    color: white;
+    text-align: right;
+}
+#home img{ 
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    padding-top: 100px;
+}
+#home img:hover{
+    opacity: 0.2;
+    transition-duration: 2.5s;
+}
+#home h1{
+    font-size: 70px;
+    position: absolute;
+    left: 220px;
+    top: 320px;
+}
+
+#home p{
+    font-size: 18px;
+    position: relative;
+    left: -10px;
+    top: -100px;
+}
+#home #b1{
+    color: black;
+    position: relative;
+    left: -10px;
+    top: -260px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#about{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: whitesmoke;
+}
+#about h1{
+    padding-top: 60px;
+    font-size: 45px;
+}
+#about p{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    word-spacing: 14px;
+    font-size: 15px;
+}
+
+#theme {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+#theme h1{
+    font-size: 50px;
+    padding-top:20px;
+    padding-bottom:20px;
+    color: whitesmoke;
+    
+}
+#theme p{
+    color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    word-spacing: 14px;
+    font-size: 16px;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+#speakers{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#speakers #s1 #speaker1{
+    height: auto;
+    width: auto;
+    
+}
+#speakers #s1 #speaker1 img{
+    height: 260px;
+    width: 180px;
+    opacity: 0.3;
+    position: relative;
+    top: 60px;
+    left: -150px;
+}
+#speakers #s1 #speaker1 img:hover{
+    opacity:0.9;
+    transition-duration: 2s;
+    
+}
+#speakers #s1 h1{
+    color: white;
+    border: thin solid white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+#speakers #s1 #speaker1 h3{
+    color: white;
+    position: relative;
+    top: -227px;
+    left: 25px;
+    font-size: 19px;
+}
+#speakers #s1 #speaker1 h2{
+    color: dimgray;
+    font-size: 16px;
+    position: relative;
+    top: -247px;
+    left: 85px;
+}
+#team {
+    width: 100%;
+    height: 500px;
+    color: whitesmoke;
+}
+
+#team h1{
+    text-align: center;
+    border: thin solid white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
