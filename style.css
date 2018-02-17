@@ -44,7 +44,7 @@ body{
 #home .wrapper h1:after {
     content:'';
     color: white;
-    font-size: 32px;
+    font-size: 40px;
 }
 #home .wrapper h1:hover{
     font-size: 45px;
@@ -77,13 +77,18 @@ body{
     
 }
 #about p{
-    text-align: center;
+    text-align: justify;
     padding-top: 30px;
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
     word-spacing: 8px;
+    color: wheat;
+
+}
+#about #p2{
+    font-size: 16px;
 
 }
 #speakers{
@@ -189,14 +194,15 @@ body{
 }
 #speakers p{
     color: wheat;
+    text-align: justify;
+    font-size: 15px;
 }
 #speakers #r1 img,#r2 img,#r3 img,#r4 img{
     height: 220px;
     width: 230px;
     opacity: 0.4;
 }
-#speakers #r3,#r4{
-}
+
 
 #speakers #r1 img:hover,#r2 img:hover,#r3 img:hover,#r4 img:hover{
     opacity: 0.9;
@@ -214,10 +220,7 @@ body{
    font-size: 15px;
     color: grey;
 }
-#speakers p{
-    text-align:left;
-    font-size: 15px;
-}
+
 
 
 #team #row1{
@@ -254,7 +257,9 @@ body{
     opacity: 0.9;
     transition-duration: 2s;
 }
-
+#team #row5 img{
+    height: 180px;
+}
 #footer{
     background-color: white;
     color: black;
@@ -281,7 +286,8 @@ body{
     font-weight: bold;
 }
 .fa {
-  padding: 15px;
+  padding: 13px 0px 14px 0px;
+    
   font-size: 5px;
   width: 50px;
   text-align: center;
